@@ -18,7 +18,6 @@ train_split = int(0.8 * len(X))
 X_train, y_train = X[:train_split], y[:train_split]
 X_test, y_test = X[train_split:], y[train_split:]
 
-
 def plot_predictions(train_data=X_train,
                      train_labels=y_train,
                      test_data=X_test,
